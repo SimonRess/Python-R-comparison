@@ -86,33 +86,88 @@ knitr::opts_chunk$set(echo = FALSE)
 \tableofcontents[]
 
 # Basics
-## Variables 
 
-**Data types**
+## Assignment 
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 
+Assignment in Python only with eqal sign `=`
+
 *R*
 
-- `numeric`: integers, flooting, point numbers
-- `logical`: **TRUE** or **FALSE**
-- `character`: strings
+- x <- 3
+- y = 0.5
+- z <- TRUE
 
 :::
 ::: {.column width="50%"}
 
 *Python*
 
-- `int`: integers
-- `float`: floating point numbers
-- `bool`: **True** or **False**
-- `str`: strings
+- x = 3
+- y = 0.5
+- z = True
 
 :::
 ::::::::::::::
 
-## Assignment 
+
+## Data types 
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+*R*
+
+- `logical`: **TRUE** or **FALSE**
+- `character`: stringsxxxxx
+- `numeric`: integers, flooting, point numbers
+
+:::
+::: {.column width="50%"}
+
+*Python*
+
+- `bool`: **True** or **False** (!)
+- `str`: strings
+- `int`: integers
+- `float`: floating point numbers
+
+:::
+::::::::::::::
+
+## Data types 
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+*R*
+
+x <- 3
+
+class(x)
+
+:::
+::: {.column width="50%"}
+
+*Python*
+
+x = 3
+
+type(x)
+
+:::
+::::::::::::::
+
+
+## Carateristics of data types
+
+
+
+
+
+
 ## Strings 
 ## Lists 
 ## Dictionaries
