@@ -177,6 +177,76 @@ type(x)
 ## Loops
 ## Functions
 
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+*R*
+
+- `function`-keyword
+- By default last line returns
+
+my_
+mean <- function(x, y) {
+num = x + y
+dem = 2
+num / dem
+}
+my_
+mean(10, 20)
+
+:::
+::: {.column width="50%"}
+
+*Python*
+
+- `def`-keyword
+- `return` needed
+
+def my_
+mean(x, y):
+num = x + y
+dem = 2
+return num / dem
+my_
+mean(10, 20)
+
+:::
+::::::::::::::
+
+
+## Anonymous / Lambda functions
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+*R*
+
+- usage e.g. in *apply-functions
+
+```{r, anonymous, echo=T}
+add_1 <- function(x) x + 1
+function(x) x + 1
+```
+
+:::
+::: {.column width="50%"}
+
+*Python*
+
+- typically 'one-line' long
+
+```{python, lamda, echo=T}
+def add_1(x):
+  return x + 1
+  
+lambda x: x + 1
+```
+
+
+:::
+::::::::::::::
+
+
 # Pandas - library
 ## Selecting and subsetting data
 ## Data types
